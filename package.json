@@ -1,0 +1,14 @@
+{
+    "name": "multipart",
+    "version": "0.1.0",
+    "description": "README.md",
+    "devDependencies": {
+        "grunt": "~0.4",
+        "grunt-contrib-jshint": ">=0.7",
+        "grunt-contrib-watch": ">=0.5",
+        "grunt-mocha": "~0.4.0",
+        "grunt-jsdoc": ">=0.5"
+    },
+    "author": "nyk0r <mozgunov@gmail.com>",
+    "license": "MIT"
+}

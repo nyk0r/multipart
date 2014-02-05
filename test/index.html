@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Multipart</title>
+    <link rel="stylesheet" type="text/css" href="lib/mocha-1.17.1.css" />
+
+    <script type="text/javascript" src="lib/jquery-1.11.0.js"></script>
+    <script type="text/javascript" src="lib/sinon-1.8.1.js"></script>
+    <script type="text/javascript" src="lib/mocha-1.17.1.js"></script>
+    <script type="text/javascript">
+        mocha.setup('bdd')
+    </script>
+    <script type="text/javascript" src="lib/chai-1.9.0.js"></script>
+
+    <script type="text/javascript" src="../src/multipart.js"></script>
+
+    <script type="text/javascript" src="spec/parse.js"></script>
+    <script type="text/javascript" src="spec/load.js"></script>
+</head>
+<body>
+    <div id="mocha"></div>
+    <div id="test"></div>
+</body>
+<script type="text/javascript">
+    if (navigator.userAgent.indexOf('PhantomJS') < 0) {
+        mocha.run();
+    }
+</script>
+</html>
