@@ -21,7 +21,9 @@ module.exports = function (grunt) {
         mocha: {
             src: ['test/**/*.html'],
             options: {
-                run: true
+                run: true,
+                reporter: 'List',
+                log: true
             }
         },
         watch: {

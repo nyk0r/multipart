@@ -1,3 +1,4 @@
+/* jshint devel:true */
 /* global describe, it, chai, $*/
 /* jshint -W030 */
 

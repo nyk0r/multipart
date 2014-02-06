@@ -152,7 +152,7 @@
             data = {},
             xhr,
             result = {},
-            deffered = $.Deffered();
+            deffered = $.Deferred();
 
         function loadData () {
             if (xhr.readyState >= 2 && !boundary) {
